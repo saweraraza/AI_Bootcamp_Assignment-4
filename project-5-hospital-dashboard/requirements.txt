@@ -1,0 +1,11 @@
+### Project 5: Live Training Dashboard (City Hospital)
+
+This project builds a full interactive Streamlit dashboard (`app.py`) backed by a modular PyTorch training engine (`trainer.py`) on the Wisconsin Breast Cancer dataset (569 patients, 30 measurements, malignant = 1)[cite: 1].
+
+#### 1. `project-5-hospital-dashboard/requirements.txt`
+```text
+torch
+scikit-learn
+streamlit
+pandas
+numpy

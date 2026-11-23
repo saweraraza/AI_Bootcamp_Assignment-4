@@ -1,0 +1,9 @@
+hidden,dropout,weight_decay,lr,epochs,patience,seed,scaled,epochs_run,best_val_loss,diagnosis,val_cancers_found,val_recall,val_false_alarms
+256,0.0,0.0,0.001,300,0,0,True,300,0.125,overfitting,40/43,0.93,3
+256,0.0,0.0,0.001,225,0,0,True,225,0.125,overfitting,40/43,0.93,3
+256,0.05,0.0,0.001,200,0,0,True,200,0.126,overfitting,40/43,0.93,3
+256,0.05,0.0,0.001,475,0,0,True,475,0.126,overfitting,40/43,0.93,3
+256,0.05,0.0,0.001,100,0,0,True,100,0.126,overfitting,40/43,0.93,3
+16,0.3,0.05,0.001,100,20,0,True,100,0.159,healthy,39/43,0.907,1
+16,0.3,0.05,0.001,225,20,0,True,198,0.126,healthy,40/43,0.93,1
+32,0.25,0.05,0.001,200,20,0,True,110,0.133,healthy,40/43,0.93,1
